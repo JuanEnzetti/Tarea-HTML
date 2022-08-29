@@ -1,0 +1,13 @@
+
+.boton{
+    margin: 16px;
+    padding: 10px;
+
+}
+
+.boton::before {
+    content: "Pasa por encima"
+}
+.boton:hover::before {
+    content: "¡Hecho!"
+}
